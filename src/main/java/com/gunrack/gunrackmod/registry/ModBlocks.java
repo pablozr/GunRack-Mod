@@ -19,6 +19,7 @@ public class ModBlocks {
                     .mapColor(MapColor.WOOD)
                     .strength(2.0f, 3.0f)
                     .noOcclusion()
+                    .noCollission()
                     .pushReaction(PushReaction.NORMAL)
             ));
 }
